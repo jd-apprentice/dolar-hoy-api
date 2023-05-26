@@ -53,7 +53,7 @@ def save_to_mysql(price_dict: dict):
         cursor.execute(query, values)
         connection.commit()
     except Exception as e:  
-        print("Error while saving values", e)
+        return {"error": "Error while saving data to db"}
 
 def scrape_and_save_data():
     for currency, option in options.items():
@@ -92,9 +92,6 @@ def get_price_from_db(currency: str):
 def get_dollar_price(currency: str):
     currency = currency.upper()
     price_data = get_price_from_db(currency)
-
-    print(price_data)
-
     if price_data:
         return price_data
     else:
