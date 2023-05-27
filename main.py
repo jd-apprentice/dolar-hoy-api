@@ -6,7 +6,6 @@ from config import connection
 from typing import Union
 from auth import authenticate
 from constants import *
-from job import run_cronjob
 from utils import *
 from bs4 import BeautifulSoup
 from fastapi import FastAPI, Depends

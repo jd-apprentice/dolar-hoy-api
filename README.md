@@ -34,7 +34,7 @@ Where `:currency` can be
 ## 🖥 Examples
 
 ```bash
-curl -X GET "http://localhost:8000/dolar/blue" -H  "accept: application/json"
+curl -X GET "http://localhost:4500/dolar/blue" -H  "accept: application/json"
 ```
 
 Response
@@ -48,3 +48,13 @@ Response
   "last_update": "2023-05-25 20:35:58" // UTC -3
 }
 ```
+
+## 🧰 Stack
+
+- Python
+- FastAPI
+- Docker
+- PlanetScale
+- GitHub Actions
+- DigitalOcean
+- Nginx
