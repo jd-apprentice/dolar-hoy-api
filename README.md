@@ -1,5 +1,7 @@
 # 💰 Dolar-hoy API
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac8a7b4797024d109d59994c531a8375)](https://app.codacy.com/gh/jd-apprentice/dolar-hoy-api?utm_source=github.com&utm_medium=referral&utm_content=jd-apprentice/dolar-hoy-api&utm_campaign=Badge_Grade)
+
 ![IMG](https://wallpapercave.com/wp/wp3105546.png)
 
 ## 📝 Description
