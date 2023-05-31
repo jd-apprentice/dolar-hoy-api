@@ -2,6 +2,8 @@
 
 ![IMG](https://wallpapercave.com/wp/wp3105546.png)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/15bdc445d90b4f1492b8a3254edef844)](https://app.codacy.com/gh/jd-apprentice/dolar-hoy-api/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 ## 📝 Description
 
 Project to learn how to deploy and mantain a REST API using FastAPI and Docker.
