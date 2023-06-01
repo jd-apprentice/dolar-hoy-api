@@ -82,7 +82,7 @@ def get_price_from_db(currency: str):
             return None
     except Exception as e:
         message = f'Error while getting {currency} price from db'
-        return { "message": message, "status": 400 }
+        return { "message": message, "status": 400, "error": e }
 
 @app.get("/dolar/{currency}")
 def get_dollar_price(currency: str):
