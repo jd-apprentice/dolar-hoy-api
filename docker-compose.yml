@@ -4,6 +4,9 @@ services:
     container_name: dolar_hoy_api_container
     image: dyallo/dolar-hoy-api
     restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
     env_file:
       - .env
     ports:
