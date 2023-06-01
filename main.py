@@ -1,9 +1,7 @@
 import requests
-import time
 import json
 
 from config import connection
-from typing import Union
 from auth import authenticate
 from constants import *
 from utils import *
@@ -41,7 +39,6 @@ def save_to_mysql(price_dict: dict):
     }
 
     values = (json.dumps(prices), label)
-    
     try: 
         cursor = connection.cursor()
         query = """
@@ -52,10 +49,10 @@ def save_to_mysql(price_dict: dict):
         cursor.execute(query, values)
         connection.commit()
     except Exception as e:  
-        return {"error": "Error while saving data to db"}
+        return {"message": "Error while saving data to db", "error": e}
 
 def scrape_and_save_data():
-    for currency, option in options.items():
+    for option in options.items():
         price_dict = build_price_dict(option)
         save_to_mysql(price_dict)
 
