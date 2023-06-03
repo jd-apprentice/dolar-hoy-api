@@ -4,6 +4,8 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/15bdc445d90b4f1492b8a3254edef844)](https://app.codacy.com/gh/jd-apprentice/dolar-hoy-api/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
+<a href="https://www.digitalocean.com/?refcode=dea6443429a5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
+
 ## 📝 Description
 
 Project to learn how to deploy and mantain a REST API using FastAPI and Docker.
