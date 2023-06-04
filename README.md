@@ -53,6 +53,10 @@ Response
 }
 ```
 
+## 🌻 Workflow
+
+![image](https://github.com/jd-apprentice/dolar-hoy-api/assets/68082746/4791c037-aae9-459d-b9dc-0db5b1d296aa)
+
 ## 🧰 Stack
 
 - Python
