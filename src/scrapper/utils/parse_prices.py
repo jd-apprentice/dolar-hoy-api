@@ -1,4 +1,5 @@
 def parse_prices(buy_price, sell_price):
+
     parsed_buy_price = buy_price.replace("$", "")
     parsed_sell_price = sell_price.replace("$", "")
 
