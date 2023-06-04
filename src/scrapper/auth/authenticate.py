@@ -1,4 +1,4 @@
-from config import scrapper_user, scrapper_password
+from src.config import scrapper_user, scrapper_password
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from fastapi import Depends, HTTPException, status
 
