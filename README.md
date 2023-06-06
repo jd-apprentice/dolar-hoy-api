@@ -70,6 +70,7 @@ Response
 ## 🔒 Environment Variables
 
 | Name | Description | Default |
+|------|-------------|---------|
 | HOST | Host to run the API | xxx |
 | USERNAME | Username to connect to PlanetScale | xxx |
 | PASSWORD | Password to connect to PlanetScale | xxx |
