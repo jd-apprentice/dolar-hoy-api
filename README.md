@@ -66,3 +66,13 @@ Response
 - GitHub Actions
 - DigitalOcean
 - Nginx
+
+## 🔒 Environment Variables
+
+| Name | Description | Default |
+| HOST | Host to run the API | xxx |
+| USERNAME | Username to connect to PlanetScale | xxx |
+| PASSWORD | Password to connect to PlanetScale | xxx |
+| DATABASE | Database to connect to PlanetScale | xxx |
+| MANUAL_USERNAME | Username to use the scrapper | xxx |
+| MANUAL_PASSWORD | Password to use the scrapper | xxx |
