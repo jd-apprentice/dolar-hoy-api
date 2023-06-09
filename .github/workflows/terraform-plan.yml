@@ -4,7 +4,7 @@ on:
   pull_request:
 
 env:
-  TF_CLOUD_ORGANIZATION: "jd-apprentice"
+  TF_CLOUD_ORGANIZATION: "jd_apprentice"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "aws-tfc"
   CONFIG_DIRECTORY: "./infra"
