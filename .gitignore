@@ -51,3 +51,7 @@ docs/_build/
 
 # Environment variable files
 .env
+
+# Tests
+
+.pytest_cache/
