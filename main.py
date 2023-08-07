@@ -5,8 +5,22 @@ from src.scrapper.services import ScrapperService
 from src.scrapper.auth import authenticate
 from src.shared.constants import *
 from fastapi import FastAPI, Depends
+from fastapi.middleware.cors import CORSMiddleware
+
+origins = [
+    "http://localhost",
+    "http://localhost:4500",
+]
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 Dolar = DolarService({
     "connection": connection,
