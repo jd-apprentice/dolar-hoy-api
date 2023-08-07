@@ -7,12 +7,9 @@ from src.shared.constants import *
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 
-origins = [
-    "http://localhost",
-    "http://localhost:4500",
-]
-
 app = FastAPI()
+
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
